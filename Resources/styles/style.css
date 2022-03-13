@@ -67,6 +67,10 @@ a{
 .nav-btn:hover{
     background-color: #FBF9FD;
     color: #5D20D1;
+    font-weight: bolder;
+}
+.nav a:hover{
+    border-bottom: 1.4px solid #5D20D1;
 }
 
 .sec-1-content{
@@ -86,6 +90,10 @@ a{
 }
 .sec-1-left{
     padding: 3rem 2rem;
+    transition: transform .5s;
+}
+.sec-1-left:hover{
+    transform: scale(1.2);
 }
 .sec-1-left > p{
     font-family: 'Work Sans', sans-serif;
@@ -107,12 +115,20 @@ a{
     font-style: normal;
     font-weight: normal;
     cursor: pointer;
-
+}
+.sec-1-left > button:hover{
+    background-color: #FBF9FD;
+    color: #5D20D1;
+    font-weight: bolder;
 }
 .sec-1-right{
     padding: 2rem;
     margin-top: 3rem;
     margin-right: 3rem;
+    transition: transform .5s;
+}
+.sec-1-right:hover{
+    transform: scale(1.2);
 }
 
 .section-2{
@@ -123,6 +139,10 @@ a{
 }
 .sec-2-left{
     margin-top: 10rem;
+    transition: transform .5s;
+}
+.sec-2-left:hover{
+    transform: scale(1.2);
 }
 .sec-2-left > h2{
     font-family: 'Work Sans', sans-serif;
@@ -145,6 +165,10 @@ a{
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 2rem;
+    transition: transform .7s;
+}
+.sec-2-right:hover{
+    transform: scale(1.2);
 }
 .sec-2-box-1{
     display: grid;
@@ -174,7 +198,6 @@ a{
 .box-1-content{
     margin-top: 1rem;
 }
-
 .sec-2-box-2{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -203,7 +226,6 @@ a{
 .box-2-content{
     margin-top: 1rem;
 }
-
 .sec-2-box-3{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -244,10 +266,19 @@ a{
 }
 .sec-3-left{
     padding: 5.3rem 0 2rem 3.2rem;
+    transition: transform .5s;
+}
+.sec-3-left:hover{
+    transform: scale(1.2);
 }
 .sec-3-right{
     margin-top: 14rem;
+    transition: transform .5s;
 }
+.sec-3-right:hover{
+    transform: scale(1.2) 
+}
+
 .sec-3-right > h3{
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -274,6 +305,10 @@ a{
 .sec-4-left{
     margin-top: 12rem;
     padding-left: 9rem;
+    transition: transform .5s;
+}
+.sec-4-left:hover{
+    transform: scale(1.2);
 }
 .sec-4-left > h3{
     font-family: 'Work Sans', sans-serif;
@@ -292,6 +327,13 @@ a{
     color: #666666;
     margin-top: 1rem;
 }
+.sec-4-right{
+    transition: transform .5s;
+}
+.sec-4-right:hover{
+    transform: scale(1.2);
+}
+
 
 .section-5{
     background-image: url(../images/Group\ 150.png);
@@ -304,9 +346,17 @@ a{
 }
 .sec-5-left{
     padding:8rem 0 6rem;
+    transition: transform .5s;
+}
+.sec-5-left:hover{
+    transform: scale(1.2);
 }
 .sec-5-right{
     padding-top: 16rem;
+    transition: transform .5s;
+}
+.sec-5-right:hover{
+    transform: scale(1.2);
 }
 .sec-5-right > h3{
     font-family: 'Work Sans', sans-serif;
@@ -356,6 +406,10 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 2rem;
+    transition: transform .5s;
+}
+.section-6-boxes:hover{
+    transform: scale(1.2);
 }
 
 .section-7{ 
@@ -408,7 +462,7 @@ a{
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 55px;
     line-height: 70px;
 }
 .sec-8-1 > h3 > span{
@@ -471,8 +525,4 @@ footer{
     justify-content: center;
     background: #FBF9FD;
     padding-bottom: 1.5rem;
-}
-
-@media only screen and (max-width: 480px){
-    
 }
